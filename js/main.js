@@ -42,3 +42,13 @@ console.log(a < b);
   console.log(a + b === c);
   console.log(a * a === d);
   console.log(48 == '48');
+
+const animal = 'cow';
+const isCow = (str) => {
+    if (str === animal) {
+        console.log('Moooooooo!');
+    } else {
+        console.log("Hey! You're not a cow")
+    }
+}
+isCow('cow');
