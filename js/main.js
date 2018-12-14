@@ -80,3 +80,9 @@ for (let i = 10; i<= 400; i++) {
 for (let i = 12; i<= 4000; i += 3){
     console.log(`Counting up by 3s ${i}`);
 }
+
+//B.
+
+for (let i = 2; i < 101; i+= 2) {
+    console.log(`${i} <-- is an even number`);
+}
