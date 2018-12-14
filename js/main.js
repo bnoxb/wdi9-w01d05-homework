@@ -86,3 +86,11 @@ for (let i = 12; i<= 4000; i += 3){
 for (let i = 2; i < 101; i+= 2) {
     console.log(`${i} <-- is an even number`);
 }
+
+for (let i = 1; i < 101; i++){
+    if (i % 5 === 0) {
+        console.log(`I found a ${i}. High five!`);
+    } else if (i % 3 === 0) {
+        console.log(`I found a ${i}. Three is a crowd.`);
+    }
+}
