@@ -11,3 +11,17 @@
 //  you should do this because it will help you become more efficient and better at coding.
 
 // 6. 70 - 80% of time should be spent planning how you are going to solve a problem.
+
+// Part B
+// 1.
+let firstVariable;
+firstVariable = 'Hello World';
+firstVariable = 1;
+let secondVariable = firstVariable;
+secondVariable = 'Hello World';
+console.log(firstVariable);
+
+// The value of firstVariable is 1.
+
+const yourName = 'Robbie';
+console.log('Hello, my name is ' + yourName);
