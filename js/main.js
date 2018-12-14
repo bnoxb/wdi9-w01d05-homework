@@ -52,3 +52,13 @@ const isCow = (str) => {
     }
 }
 isCow('cow');
+let legalAge = 16;
+
+const isOfAge = (age) => {
+    if ( age >= legalAge) {
+        console.log('Here are the keys');
+    } else {
+        console.log("Sorry, you're too young");
+    }
+}
+isOfAge(14);
