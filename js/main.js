@@ -1,3 +1,5 @@
+// VARIABLES AND DATATYPES
+
 // 1. const or let = "value"
 
 // 2. variable = 'new definition' - must be a variable declared by using let to be able to change it.
@@ -62,3 +64,19 @@ const isOfAge = (age) => {
     }
 }
 isOfAge(14);
+
+// LOOPS
+
+// A.
+
+for (let i = 0; i <= 10; i++) {
+    console.log(`the number is ${i}`);
+}
+
+for (let i = 10; i<= 400; i++) {
+    console.log(`Counting up ${i}`);
+}
+
+for (let i = 12; i<= 4000; i += 3){
+    console.log(`Counting up by 3s ${i}`);
+}
