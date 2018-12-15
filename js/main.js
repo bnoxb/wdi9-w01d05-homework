@@ -129,5 +129,13 @@ console.log(randomThings[2]);
 const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 ourClass[2];
 ourClass[4] = "Octocat";
-ourClass.push = "Cloud City";
+ourClass.push("Cloud City");
 console.log(ourClass);
+
+const myArray = [5, 10, 500, 20];
+myArray.push("Egon");
+myArray.splice(0,1);
+myArray.unshift("Bob Marley");
+myArray.splice(4,1);
+myArray.reverse();
+console.log(myArray);
