@@ -102,3 +102,19 @@ for (let i= 1; i < 101; i++){
 
 console.log(bank_account * 2);
 
+// E. Euler
+
+// I have already done this problem in a previous homework.
+
+// Arrays and Control Flow
+
+// A.
+// 1. Elements
+// 2. Yes, the elements in an array will remain in the order they were made in unless you modify that.
+// 3. You could have the names of everyone in class in an array thus modeling the students in class.
+
+const quotes = [
+    'We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty. -Maya Angelou',
+    'Never rest on your laurels. Nothing wilts faster than a laurel sat upon. - Mary Kay',
+    'Bad things are not the worst thing that can happen to us. NOTHING is the worst thing that can happen to us. - Richard Bach'
+];
