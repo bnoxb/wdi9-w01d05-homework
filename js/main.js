@@ -221,6 +221,7 @@ const kristynsCloset = [
       for (let i = 0; i < vowels.length; i++) {
           if (char.lowercase === vowels[i]) {
               isTrue = true;
+              break;
           } 
       }
       if (isTrue) {
@@ -231,3 +232,11 @@ const kristynsCloset = [
   }
   console.log(isVowel("h"));
   console.log(isVowel("a"));
+
+const getTwoLengths = (str1, str2) => {
+    const strArr = [];
+    strArr.push(str1.length);
+    strArr.push(str2.length);
+    return strArr;
+}
+console.log(getTwoLengths("Hank", "Hippopopalous"));
