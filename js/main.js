@@ -118,3 +118,10 @@ const quotes = [
     'Never rest on your laurels. Nothing wilts faster than a laurel sat upon. - Mary Kay',
     'Bad things are not the worst thing that can happen to us. NOTHING is the worst thing that can happen to us. - Richard Bach'
 ];
+
+const randomThings = [1, 10, "Hello", true];
+// randomthings[0]
+console.log(randomThings[0]);
+
+randomThings[2] = "World";
+console.log(randomThings[2]);
