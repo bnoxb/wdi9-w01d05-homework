@@ -240,3 +240,44 @@ const getTwoLengths = (str1, str2) => {
     return strArr;
 }
 console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+const getMultipleLengths = (arrOfStrings) => {
+    const strLengArr = [];
+    for (let i = 0; i < arrOfStrings.length; i++ ) {
+        strLengArr.push(arrOfStrings[i].length);
+        //console.log(strLengArr);
+    }
+    return strLengArr;
+}
+console.log(getMultipleLengths(['Hello', "what", "is", "up", "dude"]));
+
+const maxOfThree = (num1, num2, num3) => {
+    let highNum;
+    if (num1 >= num2 && num1 >= num3) {
+        highNum = num1;
+    } else if (num2 >= num3) {
+        highNum = num2;
+    } else {
+        highNum = num3;
+    }
+    return highNum;
+}
+
+console.log(maxOfThree(6, 9, 1));
+
+const printLongestWord = (arrOfStrings) => {
+    let highNum = 0;
+    let iNum = 0;
+    for (let i = 0; i < arrOfStrings.length; i++) {
+        if (arrOfStrings[i].length >= highNum) {
+            highNum = arrOfStrings[i].length;
+            console.log(highNum);
+            iNum = i;
+            //console.log(iNum);
+        }
+    }
+    // return iNum;
+    // return highNum;
+    return arrOfStrings[iNum];
+}
+console.log(printLongestWord(["Bojack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
