@@ -139,3 +139,12 @@ myArray.unshift("Bob Marley");
 myArray.splice(4,1);
 myArray.reverse();
 console.log(myArray);
+
+// 5. Yes I mutated the array.  To mutate means to manipulate the elements in the array.  The reverse method returns the array reversed.
+
+const myNum = 9;
+if (myNum < 100){
+    console.log("little number");
+} else {
+    console.log("big number");
+}
