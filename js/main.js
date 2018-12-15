@@ -120,8 +120,14 @@ const quotes = [
 ];
 
 const randomThings = [1, 10, "Hello", true];
-// randomthings[0]
+randomThings[0]
 console.log(randomThings[0]);
 
 randomThings[2] = "World";
 console.log(randomThings[2]);
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+ourClass[2];
+ourClass[4] = "Octocat";
+ourClass.push = "Cloud City";
+console.log(ourClass);
