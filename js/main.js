@@ -209,3 +209,25 @@ const kristynsCloset = [
       console.log(`${name} is cool!`);
   }
   console.log(printCool('Captain Reynolds'));
+
+  const calculateCube = (num) => {
+      return Math.pow(num, 3);
+  }
+  console.log(calculateCube(5));
+
+  const isVowel = (char) => {
+      let isTrue = false;
+      let vowels = ["a", "e", "i", "o", "u"];
+      for (let i = 0; i < vowels.length; i++) {
+          if (char.lowercase === vowels[i]) {
+              isTrue = true;
+          } 
+      }
+      if (isTrue) {
+          return true;
+      }else {
+          return false;
+      }
+  }
+  console.log(isVowel("h"));
+  console.log(isVowel("a"));
