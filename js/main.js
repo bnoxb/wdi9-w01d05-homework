@@ -94,3 +94,11 @@ for (let i = 1; i < 101; i++){
         console.log(`I found a ${i}. Three is a crowd.`);
     }
 }
+
+let bank_account = 0;
+for (let i= 1; i < 101; i++){
+    bank_account += i;
+}
+
+console.log(bank_account * 2);
+
