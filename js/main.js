@@ -200,3 +200,12 @@ const kristynsCloset = [
   thomsCloset[2][0];
   console.log(`Thom is looking fierce in a ${thomsCloset[0][3]}, ${thomsCloset[1][2]} and ${thomsCloset[2][2]}`);
   thomsCloset[1][2] = "Footie Pajamas";
+
+  // Part IV.
+  // A. printGreeting
+  // I have already done this problem in a previous homework assignment
+
+  const printCool = (name) => {
+      console.log(`${name} is cool!`);
+  }
+  console.log(printCool('Captain Reynolds'));
