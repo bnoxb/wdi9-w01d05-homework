@@ -267,7 +267,7 @@ console.log(maxOfThree(6, 9, 1));
 
 const printLongestWord = (arrOfStrings) => {
     let highNum = 0;
-    let iNum = 0;
+    let iNum;
     for (let i = 0; i < arrOfStrings.length; i++) {
         if (arrOfStrings[i].length >= highNum) {
             highNum = arrOfStrings[i].length;
@@ -281,3 +281,8 @@ const printLongestWord = (arrOfStrings) => {
     return arrOfStrings[iNum];
 }
 console.log(printLongestWord(["Bojack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+const transmogrify = (num1, num2, num3) => {
+    return Math.pow((num1 * num2), num3);
+}
+console.log(transmogrify(5,3,2));
