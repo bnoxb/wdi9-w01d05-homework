@@ -148,3 +148,11 @@ if (myNum < 100){
 } else {
     console.log("big number");
 }
+
+if (myNum < 5) {
+    console.log("little number");
+} else if (myNum > 10){
+    console.log("big number");
+} else {
+    console.log("monkey");
+}
