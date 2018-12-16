@@ -286,3 +286,33 @@ const transmogrify = (num1, num2, num3) => {
     return Math.pow((num1 * num2), num3);
 }
 console.log(transmogrify(5,3,2));
+
+const reverseWordOrder = (str) => {
+    const splitStr = []; 
+    let strMagic = "";
+    let finalStr = "";
+    for (let i = 0; i < str.length; i++){
+       const delim = " ";
+       if (str[i] !== delim && i !== (str.length -1)) {
+           strMagic = strMagic + str[i];
+           console.log(strMagic);
+       } else if (i === (str.length - 1)) {
+           strMagic = strMagic + str[i];
+           console.log(strMagic);
+           splitStr.push(strMagic);
+           console.log(splitStr);
+           break;
+       } else {
+           splitStr.push(strMagic);
+           console.log(splitStr);
+           strMagic = "";
+       }
+    }
+    console.log(splitStr);
+    for (let i = (splitStr.length-1); i > -1; i--) {
+        finalStr = finalStr + splitStr[i] + " ";
+    }
+    console.log(finalStr);
+    return finalStr;
+}
+console.log(reverseWordOrder("Ishmael me Call"));
