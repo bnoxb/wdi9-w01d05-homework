@@ -116,7 +116,10 @@ console.log(bank_account * 2);
 const quotes = [
     'We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty. -Maya Angelou',
     'Never rest on your laurels. Nothing wilts faster than a laurel sat upon. - Mary Kay',
-    'Bad things are not the worst thing that can happen to us. NOTHING is the worst thing that can happen to us. - Richard Bach'
+    'Bad things are not the worst thing that can happen to us. NOTHING is the worst thing that can happen to us. - Richard Bach',
+    'Talk is cheap, show me the code - Linus Torvald',
+    'Programs must be written for people to read, and only incidentally for machines to execute - Harold Abelson',
+    'Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live - John Woods'
 ];
 
 const randomThings = [1, 10, "Hello", true];
@@ -316,3 +319,29 @@ const reverseWordOrder = (str) => {
     return finalStr;
 }
 console.log(reverseWordOrder("Ishmael me Call"));
+
+const mathRandomQ1 = () => {
+    return Math.ceil(Math.random() * 10);
+}
+console.log(mathRandomQ1());
+
+const mathRandomFunction = (numMin,numMax) => {
+    let min = Math.floor(numMin);
+    let max = Math.ceil(numMax);
+    return Math.round(Math.random() * (max - min) + min);
+}
+console.log(mathRandomFunction(1, 10));
+console.log(mathRandomFunction(10,100));
+
+const randomNumberFunction = (numMin, numMax) => {
+    return Math.random() * (( numMax - numMin) + numMin);
+}
+console.log(randomNumberFunction(532, 13267));
+console.log(randomNumberFunction(1,10));
+
+const getRandomElement = (arr) => {
+    ranInt = Math.round(Math.random() * (arr.length - 1));
+    console.log(arr[ranInt]);
+}
+getRandomElement(quotes);
+
