@@ -352,3 +352,7 @@ const user = {
     purchased: []
 }
 console.log(user);
+
+user.email = 'someemail@gmail.com';
+user.age++;
+
