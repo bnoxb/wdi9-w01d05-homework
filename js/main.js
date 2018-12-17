@@ -346,7 +346,7 @@ const getRandomElement = (arr) => {
 getRandomElement(quotes);
 
 const user = {
-    name: 'Roberto',
+    name: 'roberto',
     email: 'saucy.cooking@gmail.com',
     age: 31,
     purchased: []
@@ -374,3 +374,24 @@ user.friend.age = 55;
 user.friend.purchased.push('The One Ring');
 user.friend.purchased.push('A latte');
 console.log(user.friend.purchased[1]);
+
+for (let i = 0; i < user.purchased.length; i++){
+    console.log(`User has purchased a ${user.purchased[i]}`);
+}
+for (let i = 0; i < user.friend.purchased.length;i++) {
+    console.log(`User's friend has purchased a ${user.friend.purchased[i]}`);
+}
+
+const updateUser = () => {
+    let name = user.name.toUpperCase();
+    user.age++;
+    user.name = name
+}
+
+const oldAndLoud = (person) => {
+    let name = person.name.toUpperCase();
+    person.age++;
+    person.name = name;
+    console.log(person);
+}
+oldAndLoud(user);
