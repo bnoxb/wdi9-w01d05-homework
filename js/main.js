@@ -345,3 +345,10 @@ const getRandomElement = (arr) => {
 }
 getRandomElement(quotes);
 
+const user = {
+    name: 'Roberto',
+    email: 'saucy.cooking@gmail.com',
+    age: 31,
+    purchased: []
+}
+console.log(user);
