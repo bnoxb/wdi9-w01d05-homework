@@ -356,3 +356,4 @@ console.log(user);
 user.email = 'someemail@gmail.com';
 user.age++;
 
+user.location = 'Denver';
